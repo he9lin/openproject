@@ -35,7 +35,7 @@ gem "rubytree", "~> 0.8.3"
 gem "rdoc", ">= 2.4.2"
 gem 'globalize', "~> 3.1.0"
 gem 'omniauth'
-gem 'request_store'
+gem 'request_store', "~> 1.1.0"
 gem 'gravatar_image_tag', '~> 1.2.0'
 
 # TODO: adds #auto_link which was deprecated in rails 3.1
@@ -179,9 +179,8 @@ end
 
 # API gems
 gem 'grape', '~> 0.7.0'
-gem 'representable', git: 'https://github.com/finnlabs/representable'
-gem 'roar',   '~> 0.12.6'
-gem 'reform', '~> 1.0.4', require: false
+gem 'roar',   '~> 1.0.0'
+gem 'reform', '~> 1.2.6', require: false
 
 # Use the commented pure ruby gems, if you have not the needed prerequisites on
 # board to compile the native ones.  Note, that their use is discouraged, since
